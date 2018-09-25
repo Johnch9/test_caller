@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: johnh9/test_caller
+  repository: r.cfcr.io/johnhoward/johnch9/testcaller
   tag: 0.0.4
   pullPolicy: IfNotPresent
 service:
