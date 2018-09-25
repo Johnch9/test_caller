@@ -8,8 +8,8 @@ image:
   pullPolicy: IfNotPresent
 service:
   name: testcaller
-  type: NodePort
-  externalPort: 81
+  type: LoadBalancer
+  externalPort: 8081
   internalPort: 8081
 resources:
   limits:
